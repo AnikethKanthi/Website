@@ -1,0 +1,61 @@
+.nav {
+  background: #111827;
+  padding: 12px 16px;
+  border-bottom: 1px solid #111827; /* thin light-gray line */
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-style: roboto;
+  color: #ffffff; /* White */
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+.nav a {
+  text-decoration: none; /* we’ll draw our own underline */
+  color: #ffffff;
+  padding: 6px 8px; /* keeps a comfy click area */
+  border-radius: 8px; /* optional; has no visual effect now */
+  position: relative; /* needed so ::after can be positioned inside */
+}
+/* the underline “bar” that animates in */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 8px; /* align inside the link padding */
+  right: 8px;
+  bottom: 2px; /* a little above the bottom edge */
+  height: 2px;
+  background: currentColor; /* same color as the text */
+  transform: scaleX(0); /* hidden by default */
+  transform-origin: left center;
+  transition: transform 180ms ease;
+}
+
+/* show the underline on hover or keyboard focus */
+.nav a:hover::after,
+.nav a:focus-visible::after {
+  transform: scaleX(1);
+}
