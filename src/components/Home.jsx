@@ -1,11 +1,11 @@
-import Ani from "src/assets/Ani.jpg";
+//import Ani from "src/assets/Ani.jpg";
 import "./Home.css";
 export default function Home() {
   return (
     <>
       {/* HERO with image */}
       <header className="hero" id="top">
-        <img className="hero-img" src={Ani} alt="Welcome banner" />
+        <img className="hero-img" src="/Ani.JPG" alt="Welcome banner" />
         <div className="hero-content">
           <h1>Hi, I’m Aniketh</h1>
           <p>Front-end developer building smooth, accessible UIs.</p>
