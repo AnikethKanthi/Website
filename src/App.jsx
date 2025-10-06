@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/NavBar.jsx";
+import Navbar from "./components/Navbar.jsx";
 import About from "./components/about.jsx";
 import Home from "./components/Home.jsx";
 import ScrollToTop from "./components/scrollToTop.jsx";
