@@ -1,4 +1,4 @@
-import Ani from "../assets/Ani.jpg";
+import Ani from "src/assets/Ani.jpg";
 import "./Home.css";
 export default function Home() {
   return (
