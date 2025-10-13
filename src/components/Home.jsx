@@ -1,4 +1,5 @@
 //import Ani from "src/assets/Ani.jpg";
+import AboutSection from "./aboutSection";
 import "./Home.css";
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <div className="hero-content">
           <h1>Hi, I’m Aniketh</h1>
           <p>Front-end developer building smooth, accessible UIs.</p>
-          <a className="btn" href="#projects">
+          <a className="btn" href="#about">
             About Me
           </a>
         </div>
@@ -17,8 +18,7 @@ export default function Home() {
       {/* MAIN SECTIONS */}
       <main className="container">
         <section id="about" className="section">
-          <h2>About</h2>
-          <p>Write a short intro about yourself here.</p>
+          <AboutSection />
         </section>
 
         <section id="projects" className="section alt">

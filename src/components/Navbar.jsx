@@ -1,5 +1,6 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import "./Navbar.css";
+import About from "./about";
 
 export default function Navbar() {
   const location = useLocation();
@@ -20,7 +21,7 @@ export default function Navbar() {
       <ul className="nav-links">
         {/* NavLink adds an "active" class when on /about */}
         <li>
-          <NavLink to="/#about">About</NavLink>
+          <a href="/#about">About</a>
         </li>
         <li>
           <a href="/#projects">Projects</a>
