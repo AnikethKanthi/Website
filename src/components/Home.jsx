@@ -10,7 +10,7 @@ export default function Home() {
           <h1>Hi, I’m Aniketh</h1>
           <p>Front-end developer building smooth, accessible UIs.</p>
           <a className="btn" href="#projects">
-            See Projects
+            About Me.
           </a>
         </div>
       </header>
