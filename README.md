@@ -1,16 +1,19 @@
-# React + Vite
+# Hi, I'm KAG — Front-End & AI UX Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I build fast, accessible React apps and thoughtful AI experiences.
 
-Currently, two official plugins are available:
+**Highlights**
+- 🚀 Perf/A11y: Reduced LCP by 42% and closed WCAG gaps (AA) on large React app.
+- 🧠 AI UX: Built RAG chat with guardrails & evals; shipped reusable chat UI components.
+- ☁️ Platforms: Azure pipelines, CI/CD, telemetry, feature flags.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Pinned Work**
+- Costco Redesign (React + TypeScript) — responsive, WCAG AA, 95+ Lighthouse
+- RAG Chat UI — retrieval, evals, prompt templates, safety checks
+- Azure Data Pipeline — ingestion → transform → viz, IaC notes
 
-## React Compiler
+**What I’m open to**
+Frontend (React/TS), AI Application/UX Engineer
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Find me**
+[[Portfolio]- ](https://website-sigma-eight-90.vercel.app/) · [LinkedIn - ](https://www.linkedin.com/in/aniketh-goud-kanthi/) · [Email - ](goudkanthi@gmail.com)
