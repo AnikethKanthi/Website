@@ -1,4 +1,4 @@
-# Hi, I'm KAG — Front-End & AI UX Engineer
+# Hi, I'm Aniketh Goud Kanthi — Front-End & AI UX Engineer
 
 I build fast, accessible React apps and thoughtful AI experiences.
 
@@ -16,4 +16,4 @@ I build fast, accessible React apps and thoughtful AI experiences.
 Frontend (React/TS), AI Application/UX Engineer
 
 **Find me**
-[[Portfolio]- ](https://website-sigma-eight-90.vercel.app/) · [LinkedIn - ](https://www.linkedin.com/in/aniketh-goud-kanthi/) · [Email - ](goudkanthi@gmail.com)
+[[Portfolio](https://website-sigma-eight-90.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/aniketh-goud-kanthi/) · [Email](goudkanthi@gmail.com)
